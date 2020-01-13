@@ -1,4 +1,5 @@
-class MainApp():
+from core.baseapp import BaseApp
+class MainApp(BaseApp):
     def __init__(self):
         self.books = []
 
